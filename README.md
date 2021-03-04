@@ -3,7 +3,7 @@
 ## Background
 This project involves analyzing the current trends shaping people's lives in the United States, as well as creating charts and interactive elements to help readers understand findings.
 
-The data set included with the assignment is based on 2014 ACS 1-year estimates: [https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml](https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml), and includes data on rates of income, obesity, poverty, etc. by state. MOE stands for "margin of error."
+The data set included with the assignment includes nationwide data on rates of income, obesity, poverty, etc. by state. MOE stands for "margin of error."
 
 ## Dashboard
 

@@ -91,9 +91,17 @@ function updateToolTip(xCol, yCol, circlesGroup, textGroup) {
     circlesGroup
         .on("mouseover", function(data) {
             toolTip.show(data, this);
+            d3.select(this)
+            .transition()
+            .duration(1000)
+            .attr("r", 20);
         })
         .on("mouseout", function(data) {
             toolTip.hide(data);
+            d3.select(this)
+            .transition()
+            .duration(1000)
+            .attr("r", 15);
         });
     textGroup
         .on("mouseover", function(data) {
